@@ -1,0 +1,21 @@
+.main-footer {
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    color: floralwhite;
+    padding: 1rem;
+    position: fixed;
+}
+
+.layout-footer-fixed .wrapper .main-footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1032;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
