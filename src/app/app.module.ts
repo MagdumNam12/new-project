@@ -9,8 +9,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DescriptionBlockComponent } from './description-block/description-block.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
-import { PiechartComponent } from './piechart/piechart.component';
-import { ChartsModule } from 'ng2-charts';
+import { ChartsComponent } from './charts/charts.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+// import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+
+
 
 
 @NgModule({
@@ -21,14 +25,17 @@ import { ChartsModule } from 'ng2-charts';
     DescriptionBlockComponent,
     MapComponent,
     FooterComponent,
-    PiechartComponent,
+    ChartsComponent,
+    SidenavComponent,
     
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ChartsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

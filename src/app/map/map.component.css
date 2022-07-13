@@ -19,6 +19,7 @@
 .card-header{
     background-color: #343a40;
     color: white;
+     
 }
 
 .card-tools{
@@ -115,6 +116,9 @@ html {
     background-color: #454d55;
     color: #fff;
 }
+ .map{
+    float-right: 5%;
+} 
 
 
 
